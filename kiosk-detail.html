@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiosk Detail</title>
+    <link rel="stylesheet" href="kiosk-detail.css">
+    <script src="kioskdetail.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">KiosinAja</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="market.html">Market</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="kiosk-detail">
+        <div class="container">
+            <div class="kiosk-images">
+                <img src="images/1.png" alt="Kiosk Image 1">
+                <img src="images/2.png" alt="Kiosk Image 2">
+                <img src="images/4.png" alt="Kiosk Image 3">
+            </div>
+            <div class="kiosk-info">
+                <h2 class="kiosk-title">Kiosk Daerah Condet</h2>
+                <p class="kiosk-description">
+                    Jl. Raya Condet, RT.11/RW.3, Balekambang, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13530
+                    
+                </p>
+                <p class="kiosk-price">Harga: Rp 12,000,000/Tahun</p>
+                <button class="contact-btn" id="openForm">Hubungi Agen</button>
+                <a href="https://www.google.com/maps/place/JChicken+Condet/@-6.2860111,106.8546258,17.75z/data=!4m6!3m5!1s0x2e69f3d58d4b510f:0xb99c6e498a18096f!8m2!3d-6.2849872!4d106.8552466!16s%2Fg%2F11vxtqw1jn?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="external-link-btn">Jalan</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Contact Form Pop-up -->
+    <div id="contactFormPopup" class="contact-form-popup">
+        <div class="popup-content">
+            <span class="close-btn" id="closeForm">&times;</span>
+            <h2>Contact Us</h2>
+            <form action="#" method="POST" class="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 KiosinAja.</p>
+        </div>
+    </footer>
+
+    <script src="kiosk-detail.js"></script>
+</body>
+</html>

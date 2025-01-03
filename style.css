@@ -1,0 +1,169 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background: #000000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+    
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero .btn {
+    background: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about, .features, .contact {
+    padding: 30px 0;
+}
+
+.about h2, .features h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style: disc;
+    padding-left: 40px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    display: block;
+    width: 100%;
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.featured {
+    padding: 20px 0;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.featured h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.see-more {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #3b3b3b;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+}
+
+.see-more:hover {
+    background-color: #000000;
+}
+
+.scroll-container {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+
+.scroll-content {
+    display: flex;
+    gap: 10px;
+}
+
+.scroll-content img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.scroll-content img:hover {
+    transform: scale(1.1);
+}
+
+

@@ -1,0 +1,112 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background: #000000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.market h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.kiosk {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.kiosk img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.kiosk button {
+    margin-top: 10px;
+    background: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.kiosk button:hover {
+    background: #0056b3;
+}
+
+.footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.kiosk-item img {
+    width: 350px;
+    height:300px;
+    object-fit: cover;  /* Ensures images fit inside the given dimensions without distortion */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.buy-btn{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+.buy-btn:hover{
+    color: #0056b3;
+}
